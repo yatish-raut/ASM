@@ -17,6 +17,7 @@ def main():
         print(domain_info)
     else:
         print(f"Failed to fetch WHOIS information for {domain_name}")
+    print("default")
 
 if __name__ == "__main__":
     main()
